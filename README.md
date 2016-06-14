@@ -427,17 +427,17 @@ You could use [postman](https://www.getpostman.com/) to test your services.
 
 * you would get an empty response in body like this : 
 
-  ![Initial get todo](/initialget.png?raw=true)
+  ![Initial get todo](/initialget.PNG?raw=true)
 
 * Select `POST` from the dropdown let the url be the same as previous one. Select the `body` option and click on `raw` radio box. Selct `JSON(application/json)` from the drop down next to the radio box.
   Enter the following for the body and press `send`.
 
        { "title": "Learn Spring Boot"}
-    ![Save Todo](/saveTodo.png?raw=true)
+    ![Save Todo](/saveTodo.PNG?raw=true)
 
 * `Post` as many todos you want and then do a `GET`. My `GET` looked like this
 
-    ![second get](/secondget.png?raw=true)
+    ![second get](/secondget.PNG?raw=true)
 
 * You can edit a todo by using `PUT` and calling url - `http://localhost:8080/api/todos/1` where /1 is the id of the todo you want to edit. send appropriate body to edit the todo title.
 

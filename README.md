@@ -63,7 +63,8 @@ If all goes well, you should be presented with some information about the Maven 
     Default locale: en_US, platform encoding: Cp1252
     OS name: "windows 7", version: "6.1", arch: "amd64", family: "dos"
  
- ##pom.xml
+
+##pom.xml
 
  **Wait, we said no xml's right?** This pom.xm file is used by maven to build the project. It contains information about the project, its depencencies and it makes your life easier by managing this dependencies.
 

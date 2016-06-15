@@ -195,9 +195,9 @@ To give you a hands on experience of Spring we will create some applications on 
 
 #Examples
 
-* [Spring Boot with Embedded Database Support]()
+* [Spring Boot with Embedded Database Support](/Spring%20Boot%20and%20Embedded%20DB)
 
-* [Spring Boot with MySQL]()
+* [Spring Boot with MySQL](Spring%20Boot%20and%20MySQL)
 
 #Issues or Doubts
 Please mail me at [amitrai48@gmail.com](mailto:amitrai48@gmail.com) for any doubts or issues.

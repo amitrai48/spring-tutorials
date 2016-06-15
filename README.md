@@ -175,7 +175,7 @@ To give you a hands on experience of Spring we will create some applications on 
 
    We will update this section soon. 
 
-* IDE
+* ###IDE
 
    It depends totally on you which IDE you want to use or if you don't wanna use them at all. But using IDE will save you a lot of time and increase your productivity. We will use [Eclipse](https://eclipse.org/) but you are free to choose any IDE that you like. Following steps are based on __Eclipse__ IDE
 

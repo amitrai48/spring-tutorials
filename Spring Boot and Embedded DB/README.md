@@ -197,7 +197,6 @@ Spring Boot is a MVC(model view controller) architecture. A Model is mapped to a
 
 The `@Entity` annotation indicates that the JavaBean is a persistent entity, JPA would automatically pick up this class.An `@Table` annotation can explicitly configure which table the entity is mapped to. In our case the `@Table(name="todos")` maps the entity to todos table.
 
-Dont worry if you dont have this table in your database. Remember this line application.properties file `spring.jpa.hibernate.ddl-auto = update` this will create a table with the specied entity.
 
 ###Repository for accessing data
 We will use `CrudRepository` for accessing/manipulating the data. It includes all the basic operations like creating, updating, deleting and retrieving items. If we need anything else, we can always create custom methods. Create TodoRepository.java inside src/main/java/todo/repositories –

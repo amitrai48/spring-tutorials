@@ -131,7 +131,7 @@ To give you a hands on experience of Spring we will create some applications on 
 
         <groupId>com.amit</groupId>
         <artifactId>spring-sql</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
 
    Every project is uniquely identified by combination of **groupId** and **artifactId**. We include the version number to differentiate our project with older versions.
    A POM requires that its groupId, artifactId, and version be configured. These three values form the project's fully qualified artifact name. This is in the form of `<groupId>`:`<artifactId>`:`<version>`. As for the example above, its fully qualified artifact name is "com.amit:spring-boot:0.0.1".

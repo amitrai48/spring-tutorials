@@ -1,0 +1,8 @@
+  {
+  "name": "Todo",
+  "version": "1.0.0",
+  "dependencies": {
+      "angular": "^1.5.2",
+      "bootstrap-css-only": "^3.3.6"
+      }
+  }

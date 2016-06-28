@@ -593,10 +593,11 @@ Proceed to `http://localhost:8080` you would see something like this
 Lets make it more awesome by making it dynamic.
 
 **This is the flow we adopt when we use angular js** : 
-     _________         __________________         ______________________          _______________
-    |         |       |                  |       |                      |        |               |
-    | Backend | <---> | Angular Service  | <---> | Angular Controllers  | <--->  |    Views      | 
-    |_________|       |__________________|       |______________________|        |_______________|
+
+         _________         __________________         ______________________          _______________
+        |         |       |                  |       |                      |        |               |
+        | Backend | <---> | Angular Service  | <---> | Angular Controllers  | <--->  |    Views      | 
+        |_________|       |__________________|       |______________________|        |_______________|
 
 
 User Interacts with our app through views. We control data shown on this view through our `controllers` which gets/sends data to our backend through `services`.
